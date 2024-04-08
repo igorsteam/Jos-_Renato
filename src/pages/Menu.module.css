@@ -1,0 +1,99 @@
+.vectorIcon {
+  width: 40px;
+  position: relative;
+  height: 34px;
+}
+.iconParkOutlineback,
+.notciasEntrevistas {
+  cursor: pointer;
+  border: 0;
+  background-color: transparent;
+}
+.iconParkOutlineback {
+  padding: var(--padding-6xs) var(--padding-9xs);
+  position: absolute;
+  height: 5.33%;
+  top: 12.99%;
+  right: 125px;
+  bottom: 81.69%;
+  width: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.notciasEntrevistas {
+  padding: 0;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+}
+.artigosPublicaesWrapper,
+.notciasEntrevistasWrapper {
+  position: absolute;
+  left: calc(50% - 127px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.notciasEntrevistasWrapper {
+  bottom: 363px;
+}
+.artigosPublicaesWrapper {
+  top: 402px;
+}
+.sobre1 {
+  margin-block-start: 0;
+  margin-block-end: 13px;
+}
+.sobreWrapper {
+  position: absolute;
+  top: 331px;
+  left: calc(50% - 41px);
+  width: 83px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.josRenatoStiro {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  text-shadow: 1px 0 0#fff, 0 1px 0#fff, -1px 0 0#fff, 0-1px 0#fff;
+}
+.josRenatoStiroSantiagoJrWrapper {
+  position: absolute;
+  top: 89px;
+  left: calc(50% - 320px);
+  width: 689px;
+  height: 76px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.menu {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-steelblue);
+  height: 901px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+}
